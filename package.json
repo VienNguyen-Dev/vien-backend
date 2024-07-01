@@ -4,12 +4,16 @@
   "description": "This is profestional backend course for me and everyone as want to learn js backend",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
   },
   "keywords": [
     "Js",
     "backend"
   ],
   "author": "Viennguyen",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
 }
