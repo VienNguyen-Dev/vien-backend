@@ -1,5 +1,5 @@
 class ApiResonse {
-  constructor(statusCode, success, message = "Success", data = []) {
+  constructor(statusCode, message = "Success", data) {
     super(message);
     this.statusCode = statusCode,
       this.message = message,
